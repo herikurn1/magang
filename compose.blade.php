@@ -1,39 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <title>Summarecon Email Blast</title>
-
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-
 
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -42,27 +35,16 @@
     <!------ Include the above in your HEAD tag ---------->
 
 
+
+
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
 
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
-
-
- 
-  <link href="https://code.jquery.com/jquery-3.5.1.js" rel="stylesheet">
-  <link href="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js" rel="stylesheet"/>
-  <link href="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js" rel="stylesheet" />
-
-
-
-
-    <link href="/css/hasna_css/history.css" rel="stylesheet">
+    <link href="/css/hasna_css/compose.css" rel="stylesheet">
 </head>
-
 
 <body>
 
@@ -99,73 +81,139 @@
     </div></div>
 </div>
 
-
     <div class="wrapper">
 
-  
-          
-    <table id="example" class="table table-striped table-bordered" style="margin: 50pt; border-radius:20px">
-  <thead>
-      <tr>
-          <th>User ID</th>
-          <th>Name</th>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Status</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-        <td>0346789</td>
-        <td>Yuan Gito Saputra</td>
-        <td>14/03/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
-      </tr>
-      <tr>
-        <td>0346799</td>
-        <td>Heri Kurniawan</td>
-        <td>14/04/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
-      </tr>
-      <tr>
-        <td>0346899</td>
-        <td>Hasna Tania</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
-      </tr>
-      <tr>
-        <td>0346999</td>
-        <td>Jon Ken</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
-      </tr>
-      <tr>
-        <td>0347999</td>
-        <td>Lola Loli</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
-      </tr>
-      <tr>
-        <td>0348999</td>
-        <td>Garet Eston</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
-      </tr>
-      <tr>
-         
-  </tbody>
- 
-</table>
+        <div class="wrapper-navbar-sidebar">
+
+            <div class="sidebar">
+                <div class="button-menu-select">
+                    <ul class="menu">
+                        <li><a href="#">Select Template</a></li>
+                    </ul>
+                </div>
+                <div class="button-menu-select-2">
+                    <ul class="menu">
+                        <li><a href="#">Create Template</a></li>
+                    </ul>
+                </div>
+                <!-- <ul class="menu">
+                    <li><a href="#">Select Template</a></li>
+                    <li><a href="#">Create Template</a></li>
+                </ul> -->
+            </div>
+        </div>
+
+        <!-- <div class="contents2">
+            <h1>Create Template</h1> -->
+        <div class="headline-drafts">
+            <h1>Composing Email</h1>
+            <div class="contents2">
+                <main class="login-form">
+                    <!-- <div class="container" style="border-radius: 10px";> -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <!-- <div class="card-header" style="font-weight: bold">Create Template</div> -->
+                                <div class="card-body">
 
 
+
+                                    <!-- <body id="LoginForm"> -->
+                                    <!-- <div class="container"> -->
+
+                                    <!-- <div class="login-form-body"> -->
+                                    <div class="main-div">
+                                        <!-- <div class="panel">
+
+                                                </div> -->
+                                        <form id="Login" action="/compose" method="POST">
+@csrf
+                                            <div class="form-group">
+
+
+                                                <input name="title" type="title" class="form-control " id="inputTitle" placeholder="Title">
+
+                                            </div>
+
+                                            <div class="form-group">
+
+                                                <input name="subject" type="subject" class="form-control" id="inputSubject" placeholder="Subject">
+
+                                            </div>
+
+                                            <div class="form-group">
+
+
+                                                <input name="from_email" type="email" class="form-control" id="inputEmail" placeholder="From">
+
+                                            </div>
+
+                                            <div class="form-group">
+
+
+                                                <textarea name="from" class="form-control2" id="from" placeholder="To" cols="120" rows="5" style="animation: reverse"></textarea>
+
+                                            </div>
+
+                                            <div class="form-group">
+
+
+                                                <textarea name="bcc" class="form-control2" id="bcc" cols="120" rows="5" placeholder="Bcc/Cc"></textarea>
+
+                                            </div>
+
+                                    </div>
+
+<!-- 
+                                    </form>
+                                    <textarea name="Article_content" id="Article_editor"></textarea> -->
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+                        <form action="" method="">
+                            <div class="form-group row">
+                                <label for="title" class="col-md-2 col-form-label text-md-right">Title</label>
+                                <div class="col-md-6">
+                                    <input type="text" name="Article_title" id="title">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="subject" class="col-md-2 col-form-label text-md-right">Subject</label>
+                                <div class="col-md-6">
+                                    <input type="text" name="Article_title" id="title">
+                                </div>
+                            </div>
+                            -->
+
+
+            </div>
+
+
+            <div class="contents3">
+                <div class="row mt-4 plus float-right" style="margin-right: 1px" ;>
+                    <div class="col">
+                        <button class="col btn btn-green-moon btn-rounded" style="font-weight: bold">Save as Draft</button>
+
+                    </div>
+
+
+                    <div class="col">
+                        <button class="col btn btn-orange-moon btn-rounded" style="font-weight: bold">Send
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
     </form>
     </div>
     </div>
@@ -173,12 +221,8 @@
     </div>
     </div>
 
-
     </main>
     </div>
-
-
-
 
 
 
@@ -188,35 +232,27 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
 
-
     <!doctype html>
     <html lang="en">
-
 
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
         <!-- Fonts -->
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
 
-
         <link rel="stylesheet" href="css/style.css">
 
-
         <link rel="icon" href="Favicon.png">
-
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
-
         <title>Laravel</title>
     </head>
-
 
     <body>
         <!--
@@ -226,7 +262,6 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -238,7 +273,6 @@
                 </li>
             </ul>
 
-
         </div>
     </div>
 </nav>
@@ -246,7 +280,6 @@
 
 
     </body>
-
 
     </html>
     <script src="ckeditor/ckeditor.js"></script>
@@ -270,6 +303,5 @@
         }
     </script>
 </body>
-
 
 </html>

@@ -60,102 +60,189 @@
 
 
 
-    <link href="/css/hasna_css/history.css" rel="stylesheet">
+    <link href="/css/hasnacompose.css" rel="stylesheet">
 </head>
 
 
 <body>
 
-<div class="wrapper1">
-<nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
-        <img src="hasna_img/img.navbar.jpg" alt="Description of the image" class="image-style">
-        <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#offer"><b>HOME</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><b>HISTORY</b></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="openSearchBar()"><b>SEARCH</b></a>
-                </li>
-            </ul>
-            </nav>
-</div>
+
+    <div class="wrapper-navbar">
+        <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark">
+            <img src="img/big-orange.jpg" alt="Description of the image" class="image-style">
+            <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offer"><b>HOME</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>HISTORY</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="openSearchBar()"><b>SEARCH</b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box;}
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #ffffff;
+      margin: 1pt;
+      margin-bottom: -100pt;
+
+    }
     
 
-    <div class="search-bar" id="searchbar">
-            <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Date">
-        <div class="input-group-append">
-            <button class="btn btn-secondary" type="button">
-                <i class="fa fa-search"></i>
-            </button>
-        </div>
-    </div></div>
-</div>
+    
 
+    
+    .topnav .search-container {
+      float: right;
+      padding: 6px;
+      margin-bottom: 100pt;
+      margin-top: 100pt;
+      margin-left: 1pt;
+      margin-right: 1pt;
+      
+
+    }
+    
+    .topnav input[type=text] {
+      padding: 5px;
+      padding-bottom: 1px;
+      margin-top: 5px;
+      font-size: 17px;
+      border-color: #ddd;
+      background-color:#ddd;
+      
+      width: 1330px;
+    }
+    
+    .topnav .search-container button {
+      float: right;
+      padding: 5px;
+      padding-bottom: 1px;
+      margin-top: 5px;
+      margin-right: -80px;
+      background: #ddd;
+      font-size: 17px;
+      border-color: #ddd;
+      cursor: pointer;
+      margin-left: 5px;
+      width: 75px;
+
+      
+    }
+    
+    .topnav .search-container button:hover {
+      background: #999999;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav .search-container {
+        float: none;
+      }
+      .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .topnav input[type=text] {
+        border: 1px solid #ccc;  
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      
+      <div class="search-container" style="margin: 75pt">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    
+  
+    
+    </body>
+    </html>
+    
 
     <div class="wrapper">
 
   
           
-    <table id="example" class="table table-striped table-bordered" style="margin: 50pt; border-radius:20px">
+    <table id="example" class="table table-striped table-bordered" style="margin: 20pt">
   <thead>
       <tr>
           <th>User ID</th>
           <th>Name</th>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Status</th>
+          <th>Region</th>
+          
       </tr>
   </thead>
   <tbody>
       <tr>
         <td>0346789</td>
         <td>Yuan Gito Saputra</td>
-        <td>14/03/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
+        <td>Bekasi</td>
       </tr>
       <tr>
         <td>0346799</td>
         <td>Heri Kurniawan</td>
-        <td>14/04/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
+        <td>Bogor</td>
+        
       </tr>
       <tr>
         <td>0346899</td>
         <td>Hasna Tania</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/ceklis.png"> Sent</td>
+        <td>Tangerang</td>
+        
       </tr>
       <tr>
         <td>0346999</td>
         <td>Jon Ken</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
+        <td>Bandung</td>
+        
       </tr>
       <tr>
         <td>0347999</td>
         <td>Lola Loli</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
+        <td>Lampung</td>
+        
       </tr>
       <tr>
         <td>0348999</td>
         <td>Garet Eston</td>
-        <td>14/05/2023</td>
-        <td>17:30 PM</td>
-        <td><img src="img/cancel.png"> Not Sent</td>
+        <td>Lampung</td>
       </tr>
       <tr>
          
@@ -252,22 +339,6 @@
     <script src="ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace('Article_editor');
-    </script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script>
-        var counter = 0;
-
-        function openSearchBar() {
-            counter++
-            console.log(counter)
-            const search_box = document.getElementById("searchbar");
-            if (counter % 2 == 0) {
-                search_box.style.display = "none"
-            } else {
-                search_box.style.display = "block"
-            }
-
-        }
     </script>
 </body>
 
